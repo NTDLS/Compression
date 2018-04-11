@@ -1,0 +1,3 @@
+[submodule "CService"]
+	path = CService
+	url = https://github.com/NTDLS/CService
