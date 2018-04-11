@@ -17,11 +17,14 @@
 #include <ShlOBJ.H>
 #include <Stdlib.H>
 
+#include "../../NSWFL/NSWFL.h"
+
 #include "ZLibEncapsulation.H"
 
+using namespace NSWFL::Memory;
+
 #ifdef _USE_GLOBAL_MEMPOOL
-#include "../../../@Libraries/CMemPool/CMemPool.H"
-extern CMemPool *pMem; //pMem must be defined and initalized elsewhere.
+extern MemoryPool *pMem; //pMem must be defined and initalized elsewhere.
 #endif
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
